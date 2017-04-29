@@ -64,6 +64,7 @@ content
 .content{
 	font-size:12px;
 	width:80%;
+	min-height: 40em;
 	background:#fff;
 	float:left;
 	margin:0 0 20px 0;

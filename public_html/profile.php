@@ -16,20 +16,7 @@
     </div>
     <div class="content">
         <div class="contests">
-            <h2><a href="#">图像分类</a></h2>
-            <div class="contest">
-                <div class="contest-abstract">
-                比赛的摘要.
-                </div>
-                <div class="clearFloat"></div>
-                <a href="#" class="contest-more">详情>></a>
-            </div>
-
-            <div class="clearFloat"></div>
-            <!-- <h2></h2> -->
-            <br />
             <div>
-
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>

@@ -6,10 +6,17 @@ function htmlHeader($title){
 "<!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset=\"utf-8\"><title>$title</title>
+		<meta charset=\"utf-8\">
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+
+        <title>$title</title> 
+        <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">
 		<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/mystyle.css\">
 	</head>
-<body>";
+<body>
+<script src=\"js/jquery-3.2.1.js\"></script>
+<script src=\"js/bootstrap.min.js\"></script>
+";
 }
 function htmlBanner(){
 	echo "
