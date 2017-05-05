@@ -5,15 +5,8 @@
 <!-- We are in the body tag of this html file now! -->
 
 <div class="wrap">
-    <div class="one sidebar">
-        <div class="widget">
-            <ul>
-                <li class="active"><a href="index.html" class="icon">Home</a></li>
-                <li><a href="songs.html" class="icon">Songs</a></li>
-                <li><a href="Applications.html" class="icon">Applications</a></li>
-            </ul>
-        </div>
-    </div>
+    <?php htmlSidebar(); ?>
+    
     <div class="content">
         <div class="contests">
             <div>

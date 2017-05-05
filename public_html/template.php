@@ -5,15 +5,8 @@
 <!-- We are in the body tag of this html file now! -->
 
 <div class="wrap">
-    <div class="one sidebar">
-        <div class="widget">
-            <ul>
-                <li class="active"><a href="index.html" class="icon">Home</a></li>
-                <li><a href="songs.html" class="icon">Songs</a></li>
-                <li><a href="Applications.html" class="icon">Applications</a></li>
-            </ul>
-        </div>
-    </div>
+    <?php htmlSidebar(); ?>
+
     <div class="content">
         <div class="contests">
             <h2><a href="#">图像分类</a></h2>
@@ -96,6 +89,63 @@
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearFloat"></div>
+            <div class="dropdown">
+              <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown trigger
+                <!-- <span class="caret"></span> -->
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                ...
+              </ul>
+            </div>
+            
+<p>Some Bootstrap icons:</p>
+<i class="glyphicon glyphicon-cloud"></i>
+<i class="glyphicon glyphicon-remove"></i>
+<i class="glyphicon glyphicon-user"></i>
+<i class="glyphicon glyphicon-envelope"></i>
+<i class="glyphicon glyphicon-thumbs-up"></i>
+<br><br>
+
+<p>Styled Bootstrap icons (size, color, and shadow):</p>
+<i class="glyphicon glyphicon-cloud" style="font-size:24px;"></i>
+<i class="glyphicon glyphicon-cloud" style="font-size:36px;"></i>
+<span class="glyphicon glyphicon-cloud" style="font-size:36px;"></span>
+<i class="glyphicon glyphicon-cloud" style="font-size:48px;color:red;"></i>
+<i class="glyphicon glyphicon-cloud" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i>
+
+<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Popover on right
+</button>
+
+        <br />
+        <div class="clearFloat"></div>
         </div>
     </div>
 </div>
