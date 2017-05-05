@@ -1,4 +1,4 @@
-CODES=~/Documents/codes
+CODES=~/Documents/codes/
 
 cd $CODES/php/sites/s02
 cp $CODES/database/setup.sql files/
