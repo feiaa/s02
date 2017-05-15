@@ -4,13 +4,17 @@
 
 ol,ul,li{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 ol,ul{list-style:none;}
-a{text-decoration:none;}
+a{text-decoration:none; outline:none;}
 .clearFloat{clear:both;}
 /*
 body
 */
 body{
 	font-family:Arial, Helvetica, sans-serif;
+}
+
+.redFont{
+	color: red;
 }
 /*
 wrap

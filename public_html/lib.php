@@ -20,6 +20,7 @@ function htmlHeader($title){
 <script src='js/lib.js'></script>
 ";
 }
+
 function htmlBanner(){
 	echo "
 <header>
@@ -31,6 +32,7 @@ function htmlBanner(){
  </div>
 </header>";
 }
+
 function htmlSidebar(){
     echo '
     <div class="sidebar">
@@ -69,8 +71,8 @@ function htmlSidebar(){
     <script>activateSidebar();</script>
     ';
 }
-function htmlFooter($value='')
-{
+
+function htmlFooter($value=''){
 	echo     
 "<div class=\"clearFloat\"></div>
     <footer>
@@ -84,6 +86,7 @@ function htmlFooter($value='')
 </body>
 </html>";
 }
+
 function connect2mysql(){
     $mysqli = new mysqli("localhost", "webuser", "1111", "webdata");
     // $conn = mysqli_connect("localhost", "webuser", "1111");
