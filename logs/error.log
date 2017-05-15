@@ -88,3 +88,4 @@
 [Mon May 15 11:01:54.568750 2017] [:error] [pid 1159] [client 127.0.0.1:48470] PHP Notice:  Trying to get property of non-object in /home/yyf/Documents/codes/php/sites/s02/public_html/index.php on line 27
 [Mon May 15 11:02:49.294486 2017] [:error] [pid 1160] [client 127.0.0.1:48504] PHP Notice:  Trying to get property of non-object in /home/yyf/Documents/codes/php/sites/s02/public_html/index.php on line 27, referer: http://localhost:9999/
 [Mon May 15 15:04:26.005521 2017] [:error] [pid 1745] [client 127.0.0.1:49832] PHP Notice:  Trying to get property of non-object in /home/yyf/Documents/codes/php/sites/s02/public_html/index.php on line 27, referer: http://localhost:9999/
+[Mon May 15 15:31:31.606335 2017] [:error] [pid 12263] [client 127.0.0.1:51028] PHP Notice:  Trying to get property of non-object in /home/yyf/Documents/codes/php/sites/s02/public_html/index.php on line 27
