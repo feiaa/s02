@@ -14,7 +14,7 @@
             <h2>图像分类</h2>
             <div class="contest">
                 <div class="contest-abstract">
-                比赛的摘要.
+                比赛的摘要..
                 </div>
             </div>
             <div class="clearFloat"></div>
